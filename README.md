@@ -7,6 +7,7 @@
 A Cross Platform App Store just for Electron Apps  
 ## Features
 - Supports Windows, Linux, and macOS (Apple Silicon is supported!)
+- Track progress, pause, cancel, delete (canceled only) downloads
 - Browse Apps from 10+  Categories
 - Search for apps by keyword and app name
 - Download .exe , .appimage ,.dmg and other file formats
