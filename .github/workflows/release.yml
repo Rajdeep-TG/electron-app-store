@@ -20,7 +20,4 @@ jobs:
         run: brew install rpm
       
       - name: Install Dependencies
-        run: npm i
-
-      - name: Build App
-        run: npm run build -mwl --publish always
+        run: npm i && npm run build -mwl --publish always
