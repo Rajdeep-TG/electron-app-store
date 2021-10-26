@@ -33,6 +33,7 @@ A Cross Platform App Store just for Electron Apps
 - Add Rating Functionality
 - Add Login Functionality
 - Developer Portal to submit Apps!
+- Online preview of Apps and an option to open it in the App Store
 
 ## Installation
 You can download for your Platform by visiting our [website](https://electron-app-store.ml) or for Linux you can get the **Snap** from **Snapcraft**:  
