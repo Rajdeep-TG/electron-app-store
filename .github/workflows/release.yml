@@ -22,8 +22,7 @@ jobs:
       - name: Install RPM with Homebrew
         run: brew install rpm
       
-      - name: Install Dependencies and Build App
-        with:
-          env:
-            GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      - name: Install Dependencies and Build App\
+        env:
+          GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
         run: cd electron-app-store && npm i && npm run build -mwl --publish always
