@@ -10,13 +10,7 @@ module.exports = {
                     provider: "github",
                     owner: "Rajdeep-TG",
                     repo: "electron-app-store",
-                }, ],
-                snap: {
-                    title: "Electron Store",
-                    confinement: "classic",
-                    summary: "The Internet's App Store",
-                    grade: "devel",
-                },
+                }],
                 mac: {
                     target: [{
                         target: "dmg",
@@ -35,8 +29,14 @@ module.exports = {
                         {
                             target: "rpm",
                             arch: ['x64']
-                        }
-                    ]
+                        },
+                    ],
+                    snap: {
+                        title: "Electron Store",
+                        confinement: "classic",
+                        summary: "The Internet's App Store",
+                        grade: "devel",
+                    },
                 }
             },
         },
