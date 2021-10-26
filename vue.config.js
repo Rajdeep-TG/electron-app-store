@@ -31,13 +31,13 @@ module.exports = {
                             arch: ['x64']
                         },
                     ],
-                    snap: {
-                        title: "Electron Store",
-                        confinement: "classic",
-                        summary: "The Internet's App Store",
-                        grade: "devel",
-                    },
-                }
+                },
+                snap: {
+                    title: "Electron Store",
+                    confinement: "classic",
+                    summary: "The Internet's App Store",
+                    grade: "devel",
+                },
             },
         },
     },
