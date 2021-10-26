@@ -1,4 +1,4 @@
-# The Electron App Store
+# Electron App Store
 <img src="screenshots/repo-card.jpg" alt="Repo Card"/>
 <a href="https://www.producthunt.com/posts/electron-app-store?utm_source=badge-review&utm_medium=badge&utm_souce=badge-electron-app-store#discussion-body" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/review.svg?post_id=316563&theme=dark" alt="Electron App Store - A Cross-Platform Open-Source App Store for Electron.js Apps | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 &nbsp;&nbsp;&nbsp;
