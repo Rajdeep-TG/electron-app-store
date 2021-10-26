@@ -5,7 +5,7 @@ module.exports = {
             mainProcessFile: "main/background.js",
             builderOptions: {
                 appId: "electron-store",
-                productName: "Electron App Store",
+                productName: "Electron Store",
                 publish: [{
                     provider: "github",
                     owner: "Rajdeep-TG",
