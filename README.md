@@ -14,6 +14,7 @@ A Cross Platform App Store just for Electron Apps
 - Automatic Install for .exe files
 - Automatic Run for .AppImage files (for Linux only)
 - Loads the app website if the ReadMe is absent for the app page
+- Download from App Website if no binary is present (only if direct download button is located at the website)
 - Is dark mode a Feature?
 
   
