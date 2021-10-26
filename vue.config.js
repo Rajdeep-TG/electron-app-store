@@ -8,7 +8,7 @@ module.exports = {
                 productName: "Electron App Store",
                 publish: [{
                     provider: "github",
-                    owner: "Electron-Store",
+                    owner: "Rajdeep-TG",
                     repo: "electron-app-store",
                 }, ],
                 snap: {

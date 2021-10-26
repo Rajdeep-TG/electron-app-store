@@ -9,7 +9,7 @@
     "version": "0.0.5",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Electron-Store/electron-app-store.git"
+        "url": "git+https://github.com/Rajdeep-TG/electron-app-store.git"
     },
     "private": true,
     "scripts": {
