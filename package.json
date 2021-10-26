@@ -6,7 +6,7 @@
         "email": "info@electron-app-store.ml"
     },
     "description": "A Simple App Store for Apps Built with Electron",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Electron-Store/electron-app-store.git"
