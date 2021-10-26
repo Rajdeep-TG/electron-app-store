@@ -30,6 +30,9 @@ A Cross Platform App Store just for Electron Apps
 - Create a CLI that has the same functionalty
 - Encourage a Common ReadMe format from the app developers to have the app pages look more seeamless
 - Support for Youtube preview videos shown on the website
+- Add Rating Functionality
+- Add Login Functionality
+- Developer Portal to submit Apps!
 
 ## Installation
 You can download for your Platform by visiting our [website](https://electron-app-store.ml) or for Linux you can get the **Snap** from **Snapcraft**:  
