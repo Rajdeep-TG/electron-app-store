@@ -1,18 +1,12 @@
 name: Build release
 
-on:
-  push:
-    tags:
-      - v[0-9]+.[0-9]+.[0-9]+
+on: [push]
+
+if: !startsWith(github.event.head_commit.message, v[0-9]+.[0-9]+.[0-9]+)
 
 jobs:
   release:
-    runs-on: ${{ matrix.os }}
-
-    strategy:
-      fail-fast: false
-      matrix:
-        os: [ubuntu-latest, windows-latest, macos-latest]
+    runs-on: macos-latest
 
     steps:
       - name: Checkout Git repository
@@ -22,14 +16,6 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 15
-          
-      - name: Install Snapcraft
-        uses: samuelmeuli/action-snapcraft@v1
-        # Only install Snapcraft on Ubuntu
-        if: startsWith(matrix.os, 'ubuntu')
-        with:
-          # Log in to Snap Store
-          snapcraft_token: ${{ secrets.snapcraft_token }}
 
       - name: Build Electron app
         uses: samuelmeuli/action-electron-builder@v1
