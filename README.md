@@ -9,8 +9,8 @@ A Cross Platform App Store just for Electron Apps
 - Browse Apps from 10+  Categories
 - Search for apps by keyword and app name
 - Download .exe , .appimage ,.dmg and other file formats
-- Automatic Install for .exe files (.appimage soon, see roadmap)
-- Loads the app website if the ReadMe is absent for the app page 
+- Automatic Install for .exe files
+- Loads the app website if the ReadMe is absent for the app page
 - Is dark mode a Feature?
 
   
@@ -22,7 +22,7 @@ A Cross Platform App Store just for Electron Apps
 
 ## Roadmap
 - Install apps without spawning the installer modal
-- Support installation of Appimages ✔️
+- Support Auto-Run of Appimages ✔️
 - Create a CLI that has the same functionalty
 - Encourage a Common ReadMe format from the app developers to have the app pages look more seeamless
 - Support for Youtube preview videos shown on the website
