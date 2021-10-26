@@ -21,8 +21,11 @@ jobs:
 
       - name: Install RPM with Homebrew
         run: brew install rpm
+        
+      - name: Install Yarn
+        run: npm i -g yarn@latest
       
       - name: Install Dependencies and Build App
         env:
           GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
-        run: cd electron-app-store && npm i && npm run build -- -mwl --publish always
+        run: cd electron-app-store && yarn && yarn build -mwl --publish always
