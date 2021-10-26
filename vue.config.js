@@ -10,7 +10,6 @@ module.exports = {
                     provider: "github",
                     owner: "Rajdeep-TG",
                     repo: "electron-app-store",
-
                 }],
                 mac: {
                     target: [{
